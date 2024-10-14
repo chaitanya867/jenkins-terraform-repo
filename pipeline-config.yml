@@ -1,0 +1,9 @@
+cloudProviders:
+  AWS:
+    repoUrl: 'https://github.com/chaitanya867/jenkins-terraform-repo.git'
+  AZURE:
+    repoUrl: 'https://github.com/chaitanya867/azure-terraform-repo.git'
+
+securityScan: 
+  enabled: false  # Default option for whether security scan should run
+  #tool: 'checkov' # The tool to be used for the security scan
